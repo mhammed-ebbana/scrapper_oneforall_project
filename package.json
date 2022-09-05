@@ -1,0 +1,24 @@
+{
+  "name": "scraper",
+  "version": "1.0.0",
+  "description": "automated scraping",
+  "main": "amzonScrapper.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "puppeteer"
+  ],
+  "author": "EM",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongoose": "^6.5.1",
+    "morgan": "^1.10.0",
+    "mysql": "github:mysqljs/mysql",
+    "puppeteer": "^15.5.0",
+    "vue": "^3.2.37",
+    "socket.io": "^4.5.1",
+    "uuid": "^8.3.2"
+  }
+}
